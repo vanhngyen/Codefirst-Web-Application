@@ -15,6 +15,8 @@ namespace Codefirst_Web_Application.Models
 
         public DateTime EnrollmentDate { get; set; }
 
+        public string Address { get; set; }
+
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
 }
